@@ -17,7 +17,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
   Widget _buildImage(String assetName){
     return Align(
-      child: Image.asset('assets/$assetName.png', width: 350,),
+      child: Image.asset('assets/$assetName.png',),
       alignment: Alignment.bottomCenter,
     );
   }
@@ -44,7 +44,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
             PageViewModel(
                 title: 'Title of First Page',
                 body: 'Here you can write description..',
-                image: Image.asset('assets/images/f_icon.png')
+                image: Image.asset('assets/images/onboarding_1.png')
             ),
             PageViewModel(
                 title: 'Title of Second Page',
